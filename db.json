@@ -27,7 +27,7 @@
      "numberOfSlides": 3,
      "numberOfDocuments":0,
      "numberOfNotes": 0,
-     "numberOfCollaborators": 1,
+     "numberOfCollaborators": 1
   },
   {
      "id":2,
@@ -36,7 +36,7 @@
      "numberOfSlides": 0,
      "numberOfDocuments":1,
      "numberOfNotes": 2,
-     "numberOfCollaborators": 1,
+     "numberOfCollaborators": 1
   },
   {
      "id":3,
@@ -45,7 +45,7 @@
      "numberOfSlides": 4,
      "numberOfDocuments":1,
      "numberOfNotes": 1,
-     "numberOfCollaborators": 0,
+     "numberOfCollaborators": 0
   },
   {
      "id":4,
@@ -54,7 +54,7 @@
      "numberOfSlides": 2,
      "numberOfDocuments":1,
      "numberOfNotes": 1,
-     "numberOfCollaborators": 1,
+     "numberOfCollaborators": 1
   },
    {
      "id":5,
