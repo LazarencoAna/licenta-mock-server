@@ -1,31 +1,68 @@
 {
-  "courses": [
-    {
-      "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "courses": [{
+    "id":1,
+    "name": "Course 1",
+    "numberOfLessons": 2,
+    "color": "blue",
+    "isPublic": false
+  },
+  {
+    "id":2,
+    "name": "Course 2",
+    "numberOfLessons": 3,
+    "color": "green",
+    "isPublic": false
+  },
+  {
+    "id":3,
+    "name": "Course 3",
+    "numberOfLessons": 0,
+    "color": "red",
+    "isPublic": false
+  }],
+  "lessons":[{
+     "id":1,
+     "courseId":1,
+     "name": "Lesson 1",
+     "numberOfSlides": 3,
+     "numberOfDocuments":0,
+     "numberOfNotes": 0,
+     "numberOfCollaborators": 1,
+  },
+  {
+     "id":2,
+     "courseId":1,
+     "name": "Lesson 2",
+     "numberOfSlides": 0,
+     "numberOfDocuments":1,
+     "numberOfNotes": 2,
+     "numberOfCollaborators": 1,
+  },
+  {
+     "id":3,
+     "courseId":3,
+     "name": "Lesson 3",
+     "numberOfSlides": 4,
+     "numberOfDocuments":1,
+     "numberOfNotes": 1,
+     "numberOfCollaborators": 0,
+  },
+  {
+     "id":4,
+     "courseId":3,
+     "name": "Lesson 4",
+     "numberOfSlides": 2,
+     "numberOfDocuments":1,
+     "numberOfNotes": 1,
+     "numberOfCollaborators": 1,
+  },
+   {
+     "id":5,
+     "courseId":3,
+     "name": "Lesson 5",
+     "numberOfSlides": 1,
+     "numberOfDocuments":0,
+     "numberOfNotes": 1,
+     "numberOfCollaborators": ,
+  }]
 }
