@@ -4,21 +4,48 @@
     "name": "Course 1",
     "numberOfLessons": 2,
     "color": "blue",
-    "isPublic": false
+    "isPublic": false,
+    "defaultLesson":{
+     "id":1,
+     "courseId":1,
+     "name": "Lesson 1",
+     "numberOfSlides": 3,
+     "numberOfDocuments":0,
+     "numberOfNotes": 0,
+     "numberOfCollaborators": 1
+  }
   },
   {
     "id":2,
     "name": "Course 2",
-    "numberOfLessons": 3,
+    "numberOfLessons": 2,
     "color": "green",
-    "isPublic": false
+    "isPublic": false,
+     "defaultLesson": {
+     "id":5,
+     "courseId":3,
+     "name": "Lesson 5",
+     "numberOfSlides": 1,
+     "numberOfDocuments":0,
+     "numberOfNotes": 1,
+     "numberOfCollaborators": 0
+  }
   },
   {
     "id":3,
     "name": "Course 3",
-    "numberOfLessons": 0,
+    "numberOfLessons": 1,
     "color": "red",
-    "isPublic": false
+    "isPublic": false,
+     "defaultLesson": {
+     "id":3,
+     "courseId":2,
+     "name": "Lesson 3",
+     "numberOfSlides": 4,
+     "numberOfDocuments":1,
+     "numberOfNotes": 1,
+     "numberOfCollaborators": 0
+  }
   }],
   "lessons":[{
      "id":1,
@@ -40,7 +67,7 @@
   },
   {
      "id":3,
-     "courseId":3,
+     "courseId":2,
      "name": "Lesson 3",
      "numberOfSlides": 4,
      "numberOfDocuments":1,
@@ -49,7 +76,7 @@
   },
   {
      "id":4,
-     "courseId":3,
+     "courseId":2,
      "name": "Lesson 4",
      "numberOfSlides": 2,
      "numberOfDocuments":1,
