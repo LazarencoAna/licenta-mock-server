@@ -50,26 +50,26 @@
    "chapters": [{
      "id":1,
      "courseId":1,
-     "name": "Lesson 1",
+     "name": "chapters 1",
      "numberOfLessons": 3,
      "numberOfPractice":0,
-     "numberOfTests": 0
+     "numberOfTests": 3
   },
  {
      "id":2,
      "courseId":1,
-     "name": "Lesson 1",
+     "name": "chapters 2",
      "numberOfLessons": 3,
-     "numberOfPractice":0,
+     "numberOfPractice":1,
      "numberOfTests": 0
   },
  {
      "id":3,
      "courseId":1,
-     "name": "Lesson 1",
+     "name": "chapters 3",
      "numberOfLessons": 3,
-     "numberOfPractice":0,
-     "numberOfTests": 0
+     "numberOfPractice":2,
+     "numberOfTests": 1
   }],
   "lessons":[{
      "id":1,
